@@ -1,0 +1,434 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.unihub"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/macbookpro/Downloads/Documents/GitHub/UniHub/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/macbookpro/Downloads/Documents/GitHub/UniHub/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/macbookpro/Downloads/Documents/GitHub/UniHub/android/app/src/main/AndroidManifest.xml:4:5-67
+11-->/Users/macbookpro/Downloads/Documents/GitHub/UniHub/android/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->/Users/macbookpro/Downloads/Documents/GitHub/UniHub/android/app/src/main/AndroidManifest.xml:5:5-64
+12-->/Users/macbookpro/Downloads/Documents/GitHub/UniHub/android/app/src/main/AndroidManifest.xml:5:22-62
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->[:react-native-firebase_auth] /Users/macbookpro/Downloads/Documents/GitHub/UniHub/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-68
+13-->[:react-native-firebase_auth] /Users/macbookpro/Downloads/Documents/GitHub/UniHub/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-65
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[:react-native-firebase_auth] /Users/macbookpro/Downloads/Documents/GitHub/UniHub/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-79
+14-->[:react-native-firebase_auth] /Users/macbookpro/Downloads/Documents/GitHub/UniHub/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-76
+15
+16    <queries>
+16-->[:react-native-image-crop-picker] /Users/macbookpro/Downloads/Documents/GitHub/UniHub/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-13:15
+17        <intent>
+17-->[:react-native-image-crop-picker] /Users/macbookpro/Downloads/Documents/GitHub/UniHub/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-12:18
+18            <action android:name="android.media.action.IMAGE_CAPTURE" />
+18-->[:react-native-image-crop-picker] /Users/macbookpro/Downloads/Documents/GitHub/UniHub/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-73
+18-->[:react-native-image-crop-picker] /Users/macbookpro/Downloads/Documents/GitHub/UniHub/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:21-70
+19        </intent>
+20
+21        <package android:name="com.facebook.katana" />
+21-->[com.facebook.android:facebook-common:16.0.1] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/531f90977a2fb01cc1d441fe409b6e25/transformed/jetified-facebook-common-16.0.1/AndroidManifest.xml:18:9-55
+21-->[com.facebook.android:facebook-common:16.0.1] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/531f90977a2fb01cc1d441fe409b6e25/transformed/jetified-facebook-common-16.0.1/AndroidManifest.xml:18:18-52
+22    </queries>
+23
+24    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- Required to access Google Play Licensing -->
+24-->[:react-native-image-crop-picker] /Users/macbookpro/Downloads/Documents/GitHub/UniHub/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:5-81
+24-->[:react-native-image-crop-picker] /Users/macbookpro/Downloads/Documents/GitHub/UniHub/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:22-78
+25    <uses-permission android:name="com.android.vending.CHECK_LICENSE" /> <!-- Required to check whether Wi-Fi is enabled -->
+25-->[:rn-fetch-blob] /Users/macbookpro/Downloads/Documents/GitHub/UniHub/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-73
+25-->[:rn-fetch-blob] /Users/macbookpro/Downloads/Documents/GitHub/UniHub/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-70
+26    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+26-->[:rn-fetch-blob] /Users/macbookpro/Downloads/Documents/GitHub/UniHub/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:5-76
+26-->[:rn-fetch-blob] /Users/macbookpro/Downloads/Documents/GitHub/UniHub/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:22-73
+27    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+27-->[com.facebook.android:facebook-core:16.0.1] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/7d27c4f30c7d9c38b7eb38c73452bd6a/transformed/jetified-facebook-core-16.0.1/AndroidManifest.xml:16:5-79
+27-->[com.facebook.android:facebook-core:16.0.1] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/7d27c4f30c7d9c38b7eb38c73452bd6a/transformed/jetified-facebook-core-16.0.1/AndroidManifest.xml:16:22-76
+28    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- <uses-permission android:name="com.google.android.gms.permission.AD_ID" tools:node="remove"/> -->
+28-->[com.android.installreferrer:installreferrer:1.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/744ee6451e45a7f9452a210ba19b6c4a/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:9:5-110
+28-->[com.android.installreferrer:installreferrer:1.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/744ee6451e45a7f9452a210ba19b6c4a/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:9:22-107
+29    <!--
+30 <uses-feature android:name="android.hardware.camera" android:required="false" />
+31    <uses-feature android:name="android.hardware.camera.front" android:required="false" />
+32    -->
+33    <application
+33-->/Users/macbookpro/Downloads/Documents/GitHub/UniHub/android/app/src/main/AndroidManifest.xml:10:5-38:19
+34        android:name="com.unihub.MainApplication"
+34-->/Users/macbookpro/Downloads/Documents/GitHub/UniHub/android/app/src/main/AndroidManifest.xml:12:7-38
+35        android:allowBackup="false"
+35-->/Users/macbookpro/Downloads/Documents/GitHub/UniHub/android/app/src/main/AndroidManifest.xml:16:7-34
+36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+36-->[androidx.core:core:1.6.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/404aed322d69786ba88d92ca8f9f4619/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+37        android:icon="@mipmap/ic_launcher"
+37-->/Users/macbookpro/Downloads/Documents/GitHub/UniHub/android/app/src/main/AndroidManifest.xml:14:7-41
+38        android:label="@string/app_name"
+38-->/Users/macbookpro/Downloads/Documents/GitHub/UniHub/android/app/src/main/AndroidManifest.xml:13:7-39
+39        android:roundIcon="@mipmap/ic_launcher_round"
+39-->/Users/macbookpro/Downloads/Documents/GitHub/UniHub/android/app/src/main/AndroidManifest.xml:15:7-52
+40        android:supportsRtl="true"
+40-->[com.facebook.android:facebook-android-sdk:16.0.1] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/b922f54c5ec223b8bbdd3325dae25f59/transformed/jetified-facebook-android-sdk-16.0.1/AndroidManifest.xml:16:18-44
+41        android:theme="@style/AppTheme"
+41-->/Users/macbookpro/Downloads/Documents/GitHub/UniHub/android/app/src/main/AndroidManifest.xml:17:7-38
+42        android:usesCleartextTraffic="true" >
+42-->/Users/macbookpro/Downloads/Documents/GitHub/UniHub/android/app/src/main/AndroidManifest.xml:11:7-42
+43        <meta-data
+43-->/Users/macbookpro/Downloads/Documents/GitHub/UniHub/android/app/src/main/AndroidManifest.xml:18:11-109
+44            android:name="com.facebook.sdk.ApplicationId"
+44-->/Users/macbookpro/Downloads/Documents/GitHub/UniHub/android/app/src/main/AndroidManifest.xml:18:22-67
+45            android:value="@string/facebook_app_id" />
+45-->/Users/macbookpro/Downloads/Documents/GitHub/UniHub/android/app/src/main/AndroidManifest.xml:18:68-107
+46        <meta-data
+46-->/Users/macbookpro/Downloads/Documents/GitHub/UniHub/android/app/src/main/AndroidManifest.xml:19:5-107
+47            android:name="com.facebook.sdk.ClientToken"
+47-->/Users/macbookpro/Downloads/Documents/GitHub/UniHub/android/app/src/main/AndroidManifest.xml:19:16-59
+48            android:value="@string/facebook_client_token" />
+48-->/Users/macbookpro/Downloads/Documents/GitHub/UniHub/android/app/src/main/AndroidManifest.xml:19:60-105
+49
+50        <activity
+50-->/Users/macbookpro/Downloads/Documents/GitHub/UniHub/android/app/src/main/AndroidManifest.xml:20:7-35:18
+51            android:name="com.unihub.MainActivity"
+51-->/Users/macbookpro/Downloads/Documents/GitHub/UniHub/android/app/src/main/AndroidManifest.xml:21:9-37
+52            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+52-->/Users/macbookpro/Downloads/Documents/GitHub/UniHub/android/app/src/main/AndroidManifest.xml:23:9-118
+53            android:exported="true"
+53-->/Users/macbookpro/Downloads/Documents/GitHub/UniHub/android/app/src/main/AndroidManifest.xml:26:9-32
+54            android:label="@string/app_name"
+54-->/Users/macbookpro/Downloads/Documents/GitHub/UniHub/android/app/src/main/AndroidManifest.xml:22:9-41
+55            android:launchMode="singleTask"
+55-->/Users/macbookpro/Downloads/Documents/GitHub/UniHub/android/app/src/main/AndroidManifest.xml:24:9-40
+56            android:screenOrientation="portrait"
+56-->/Users/macbookpro/Downloads/Documents/GitHub/UniHub/android/app/src/main/AndroidManifest.xml:27:10-46
+57            android:windowSoftInputMode="adjustResize" >
+57-->/Users/macbookpro/Downloads/Documents/GitHub/UniHub/android/app/src/main/AndroidManifest.xml:25:9-51
+58            <intent-filter>
+58-->/Users/macbookpro/Downloads/Documents/GitHub/UniHub/android/app/src/main/AndroidManifest.xml:31:9-34:25
+59                <action android:name="android.intent.action.MAIN" />
+59-->/Users/macbookpro/Downloads/Documents/GitHub/UniHub/android/app/src/main/AndroidManifest.xml:32:13-65
+59-->/Users/macbookpro/Downloads/Documents/GitHub/UniHub/android/app/src/main/AndroidManifest.xml:32:21-62
+60
+61                <category android:name="android.intent.category.LAUNCHER" />
+61-->/Users/macbookpro/Downloads/Documents/GitHub/UniHub/android/app/src/main/AndroidManifest.xml:33:13-73
+61-->/Users/macbookpro/Downloads/Documents/GitHub/UniHub/android/app/src/main/AndroidManifest.xml:33:23-70
+62            </intent-filter>
+63        </activity>
+64        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+64-->/Users/macbookpro/Downloads/Documents/GitHub/UniHub/android/app/src/main/AndroidManifest.xml:36:4-80
+64-->/Users/macbookpro/Downloads/Documents/GitHub/UniHub/android/app/src/main/AndroidManifest.xml:36:14-78
+65
+66        <meta-data
+66-->[:react-native-firebase_app] /Users/macbookpro/Downloads/Documents/GitHub/UniHub/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:9-13:36
+67            android:name="app_data_collection_default_enabled"
+67-->[:react-native-firebase_app] /Users/macbookpro/Downloads/Documents/GitHub/UniHub/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-63
+68            android:value="true" />
+68-->[:react-native-firebase_app] /Users/macbookpro/Downloads/Documents/GitHub/UniHub/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-33
+69
+70        <service
+70-->[:react-native-firebase_app] /Users/macbookpro/Downloads/Documents/GitHub/UniHub/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:9-23:19
+71            android:name="com.google.firebase.components.ComponentDiscoveryService"
+71-->[:react-native-firebase_app] /Users/macbookpro/Downloads/Documents/GitHub/UniHub/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-84
+72            android:directBootAware="true"
+72-->[:react-native-firebase_app] /Users/macbookpro/Downloads/Documents/GitHub/UniHub/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-43
+73            android:exported="false" >
+73-->[:react-native-firebase_app] /Users/macbookpro/Downloads/Documents/GitHub/UniHub/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+74            <meta-data
+74-->[:react-native-firebase_app] /Users/macbookpro/Downloads/Documents/GitHub/UniHub/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-22:85
+75                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+75-->[:react-native-firebase_app] /Users/macbookpro/Downloads/Documents/GitHub/UniHub/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:21:17-120
+76                android:value="com.google.firebase.components.ComponentRegistrar" />
+76-->[:react-native-firebase_app] /Users/macbookpro/Downloads/Documents/GitHub/UniHub/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:22:17-82
+77            <meta-data
+77-->[com.google.firebase:firebase-auth:21.1.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/9a6558ed47733e884c277427b144609f/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:67:13-69:85
+78                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+78-->[com.google.firebase:firebase-auth:21.1.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/9a6558ed47733e884c277427b144609f/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:68:17-109
+79                android:value="com.google.firebase.components.ComponentRegistrar" />
+79-->[com.google.firebase:firebase-auth:21.1.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/9a6558ed47733e884c277427b144609f/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:69:17-82
+80            <meta-data
+80-->[com.google.firebase:firebase-database:20.1.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/1251f687d32282acb4e4dc4392a4732a/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:31:13-33:85
+81                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+81-->[com.google.firebase:firebase-database:20.1.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/1251f687d32282acb4e4dc4392a4732a/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:32:17-109
+82                android:value="com.google.firebase.components.ComponentRegistrar" />
+82-->[com.google.firebase:firebase-database:20.1.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/1251f687d32282acb4e4dc4392a4732a/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:33:17-82
+83        </service>
+84
+85        <provider
+85-->[:react-native-firebase_app] /Users/macbookpro/Downloads/Documents/GitHub/UniHub/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:9-29:38
+86            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+86-->[:react-native-firebase_app] /Users/macbookpro/Downloads/Documents/GitHub/UniHub/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-88
+87            android:authorities="com.unihub.reactnativefirebaseappinitprovider"
+87-->[:react-native-firebase_app] /Users/macbookpro/Downloads/Documents/GitHub/UniHub/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-86
+88            android:exported="false"
+88-->[:react-native-firebase_app] /Users/macbookpro/Downloads/Documents/GitHub/UniHub/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-37
+89            android:initOrder="99" />
+89-->[:react-native-firebase_app] /Users/macbookpro/Downloads/Documents/GitHub/UniHub/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-35
+90        <provider
+90-->[:react-native-image-crop-picker] /Users/macbookpro/Downloads/Documents/GitHub/UniHub/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:9-26:20
+91            android:name="com.reactnative.ivpusic.imagepicker.IvpusicImagePickerFileProvider"
+91-->[:react-native-image-crop-picker] /Users/macbookpro/Downloads/Documents/GitHub/UniHub/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-94
+92            android:authorities="com.unihub.provider"
+92-->[:react-native-image-crop-picker] /Users/macbookpro/Downloads/Documents/GitHub/UniHub/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-60
+93            android:exported="false"
+93-->[:react-native-image-crop-picker] /Users/macbookpro/Downloads/Documents/GitHub/UniHub/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-37
+94            android:grantUriPermissions="true" >
+94-->[:react-native-image-crop-picker] /Users/macbookpro/Downloads/Documents/GitHub/UniHub/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-47
+95            <meta-data
+95-->[:react-native-image-crop-picker] /Users/macbookpro/Downloads/Documents/GitHub/UniHub/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-25:78
+96                android:name="android.support.FILE_PROVIDER_PATHS"
+96-->[:react-native-image-crop-picker] /Users/macbookpro/Downloads/Documents/GitHub/UniHub/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:24:17-67
+97                android:resource="@xml/ivpusic_imagepicker_provider_paths" />
+97-->[:react-native-image-crop-picker] /Users/macbookpro/Downloads/Documents/GitHub/UniHub/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:17-75
+98        </provider>
+99
+100        <activity
+100-->[:react-native-image-crop-picker] /Users/macbookpro/Downloads/Documents/GitHub/UniHub/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:9-30:72
+101            android:name="com.yalantis.ucrop.UCropActivity"
+101-->[:react-native-image-crop-picker] /Users/macbookpro/Downloads/Documents/GitHub/UniHub/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-60
+102            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+102-->[:react-native-image-crop-picker] /Users/macbookpro/Downloads/Documents/GitHub/UniHub/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-69
+103
+104        <provider
+104-->[:react-native-image-picker] /Users/macbookpro/Downloads/Documents/GitHub/UniHub/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+105            android:name="com.imagepicker.ImagePickerProvider"
+105-->[:react-native-image-picker] /Users/macbookpro/Downloads/Documents/GitHub/UniHub/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-63
+106            android:authorities="com.unihub.imagepickerprovider"
+106-->[:react-native-image-picker] /Users/macbookpro/Downloads/Documents/GitHub/UniHub/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-71
+107            android:exported="false"
+107-->[:react-native-image-picker] /Users/macbookpro/Downloads/Documents/GitHub/UniHub/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+108            android:grantUriPermissions="true" >
+108-->[:react-native-image-picker] /Users/macbookpro/Downloads/Documents/GitHub/UniHub/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+109            <meta-data
+109-->[:react-native-image-crop-picker] /Users/macbookpro/Downloads/Documents/GitHub/UniHub/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-25:78
+110                android:name="android.support.FILE_PROVIDER_PATHS"
+110-->[:react-native-image-crop-picker] /Users/macbookpro/Downloads/Documents/GitHub/UniHub/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:24:17-67
+111                android:resource="@xml/imagepicker_provider_paths" />
+111-->[:react-native-image-crop-picker] /Users/macbookpro/Downloads/Documents/GitHub/UniHub/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:17-75
+112        </provider>
+113        <provider
+113-->[:rn-fetch-blob] /Users/macbookpro/Downloads/Documents/GitHub/UniHub/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:34:9-42:20
+114            android:name="com.RNFetchBlob.Utils.FileProvider"
+114-->[:rn-fetch-blob] /Users/macbookpro/Downloads/Documents/GitHub/UniHub/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:35:13-62
+115            android:authorities="com.unihub.provider"
+115-->[:rn-fetch-blob] /Users/macbookpro/Downloads/Documents/GitHub/UniHub/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:36:13-60
+116            android:exported="false"
+116-->[:rn-fetch-blob] /Users/macbookpro/Downloads/Documents/GitHub/UniHub/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:37:13-37
+117            android:grantUriPermissions="true" >
+117-->[:rn-fetch-blob] /Users/macbookpro/Downloads/Documents/GitHub/UniHub/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:38:13-47
+118            <meta-data
+118-->[:react-native-image-crop-picker] /Users/macbookpro/Downloads/Documents/GitHub/UniHub/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-25:78
+119                android:name="android.support.FILE_PROVIDER_PATHS"
+119-->[:react-native-image-crop-picker] /Users/macbookpro/Downloads/Documents/GitHub/UniHub/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:24:17-67
+120                android:resource="@xml/provider_paths" />
+120-->[:react-native-image-crop-picker] /Users/macbookpro/Downloads/Documents/GitHub/UniHub/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:17-75
+121        </provider>
+122
+123        <activity
+123-->[com.facebook.android:facebook-common:16.0.1] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/531f90977a2fb01cc1d441fe409b6e25/transformed/jetified-facebook-common-16.0.1/AndroidManifest.xml:22:9-25:66
+124            android:name="com.facebook.FacebookActivity"
+124-->[com.facebook.android:facebook-common:16.0.1] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/531f90977a2fb01cc1d441fe409b6e25/transformed/jetified-facebook-common-16.0.1/AndroidManifest.xml:23:13-57
+125            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+125-->[com.facebook.android:facebook-common:16.0.1] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/531f90977a2fb01cc1d441fe409b6e25/transformed/jetified-facebook-common-16.0.1/AndroidManifest.xml:24:13-96
+126            android:theme="@style/com_facebook_activity_theme" />
+126-->[com.facebook.android:facebook-common:16.0.1] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/531f90977a2fb01cc1d441fe409b6e25/transformed/jetified-facebook-common-16.0.1/AndroidManifest.xml:25:13-63
+127        <activity android:name="com.facebook.CustomTabMainActivity" />
+127-->[com.facebook.android:facebook-common:16.0.1] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/531f90977a2fb01cc1d441fe409b6e25/transformed/jetified-facebook-common-16.0.1/AndroidManifest.xml:26:9-71
+127-->[com.facebook.android:facebook-common:16.0.1] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/531f90977a2fb01cc1d441fe409b6e25/transformed/jetified-facebook-common-16.0.1/AndroidManifest.xml:26:19-68
+128        <activity
+128-->[com.facebook.android:facebook-common:16.0.1] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/531f90977a2fb01cc1d441fe409b6e25/transformed/jetified-facebook-common-16.0.1/AndroidManifest.xml:27:9-41:20
+129            android:name="com.facebook.CustomTabActivity"
+129-->[com.facebook.android:facebook-common:16.0.1] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/531f90977a2fb01cc1d441fe409b6e25/transformed/jetified-facebook-common-16.0.1/AndroidManifest.xml:28:13-58
+130            android:exported="true" >
+130-->[com.facebook.android:facebook-common:16.0.1] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/531f90977a2fb01cc1d441fe409b6e25/transformed/jetified-facebook-common-16.0.1/AndroidManifest.xml:29:13-36
+131            <intent-filter>
+131-->[com.facebook.android:facebook-common:16.0.1] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/531f90977a2fb01cc1d441fe409b6e25/transformed/jetified-facebook-common-16.0.1/AndroidManifest.xml:31:13-40:29
+132                <action android:name="android.intent.action.VIEW" />
+132-->[com.facebook.android:facebook-common:16.0.1] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/531f90977a2fb01cc1d441fe409b6e25/transformed/jetified-facebook-common-16.0.1/AndroidManifest.xml:32:17-69
+132-->[com.facebook.android:facebook-common:16.0.1] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/531f90977a2fb01cc1d441fe409b6e25/transformed/jetified-facebook-common-16.0.1/AndroidManifest.xml:32:25-66
+133
+134                <category android:name="android.intent.category.DEFAULT" />
+134-->[com.facebook.android:facebook-common:16.0.1] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/531f90977a2fb01cc1d441fe409b6e25/transformed/jetified-facebook-common-16.0.1/AndroidManifest.xml:34:17-76
+134-->[com.facebook.android:facebook-common:16.0.1] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/531f90977a2fb01cc1d441fe409b6e25/transformed/jetified-facebook-common-16.0.1/AndroidManifest.xml:34:27-73
+135                <category android:name="android.intent.category.BROWSABLE" />
+135-->[com.facebook.android:facebook-common:16.0.1] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/531f90977a2fb01cc1d441fe409b6e25/transformed/jetified-facebook-common-16.0.1/AndroidManifest.xml:35:17-78
+135-->[com.facebook.android:facebook-common:16.0.1] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/531f90977a2fb01cc1d441fe409b6e25/transformed/jetified-facebook-common-16.0.1/AndroidManifest.xml:35:27-75
+136
+137                <data
+137-->[com.facebook.android:facebook-common:16.0.1] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/531f90977a2fb01cc1d441fe409b6e25/transformed/jetified-facebook-common-16.0.1/AndroidManifest.xml:37:17-39:50
+138                    android:host="cct.com.unihub"
+138-->[com.facebook.android:facebook-common:16.0.1] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/531f90977a2fb01cc1d441fe409b6e25/transformed/jetified-facebook-common-16.0.1/AndroidManifest.xml:38:21-56
+139                    android:scheme="fbconnect" />
+139-->[com.facebook.android:facebook-common:16.0.1] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/531f90977a2fb01cc1d441fe409b6e25/transformed/jetified-facebook-common-16.0.1/AndroidManifest.xml:39:21-47
+140            </intent-filter>
+141        </activity>
+142        <activity
+142-->[com.google.firebase:firebase-auth:21.1.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/9a6558ed47733e884c277427b144609f/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:27:9-44:20
+143            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+143-->[com.google.firebase:firebase-auth:21.1.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/9a6558ed47733e884c277427b144609f/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:28:13-80
+144            android:excludeFromRecents="true"
+144-->[com.google.firebase:firebase-auth:21.1.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/9a6558ed47733e884c277427b144609f/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:29:13-46
+145            android:exported="true"
+145-->[com.google.firebase:firebase-auth:21.1.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/9a6558ed47733e884c277427b144609f/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:30:13-36
+146            android:launchMode="singleTask"
+146-->[com.google.firebase:firebase-auth:21.1.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/9a6558ed47733e884c277427b144609f/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:31:13-44
+147            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+147-->[com.google.firebase:firebase-auth:21.1.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/9a6558ed47733e884c277427b144609f/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:32:13-72
+148            <intent-filter>
+148-->[com.google.firebase:firebase-auth:21.1.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/9a6558ed47733e884c277427b144609f/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:33:13-43:29
+149                <action android:name="android.intent.action.VIEW" />
+149-->[com.facebook.android:facebook-common:16.0.1] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/531f90977a2fb01cc1d441fe409b6e25/transformed/jetified-facebook-common-16.0.1/AndroidManifest.xml:32:17-69
+149-->[com.facebook.android:facebook-common:16.0.1] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/531f90977a2fb01cc1d441fe409b6e25/transformed/jetified-facebook-common-16.0.1/AndroidManifest.xml:32:25-66
+150
+151                <category android:name="android.intent.category.DEFAULT" />
+151-->[com.facebook.android:facebook-common:16.0.1] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/531f90977a2fb01cc1d441fe409b6e25/transformed/jetified-facebook-common-16.0.1/AndroidManifest.xml:34:17-76
+151-->[com.facebook.android:facebook-common:16.0.1] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/531f90977a2fb01cc1d441fe409b6e25/transformed/jetified-facebook-common-16.0.1/AndroidManifest.xml:34:27-73
+152                <category android:name="android.intent.category.BROWSABLE" />
+152-->[com.facebook.android:facebook-common:16.0.1] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/531f90977a2fb01cc1d441fe409b6e25/transformed/jetified-facebook-common-16.0.1/AndroidManifest.xml:35:17-78
+152-->[com.facebook.android:facebook-common:16.0.1] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/531f90977a2fb01cc1d441fe409b6e25/transformed/jetified-facebook-common-16.0.1/AndroidManifest.xml:35:27-75
+153
+154                <data
+154-->[com.facebook.android:facebook-common:16.0.1] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/531f90977a2fb01cc1d441fe409b6e25/transformed/jetified-facebook-common-16.0.1/AndroidManifest.xml:37:17-39:50
+155                    android:host="firebase.auth"
+155-->[com.facebook.android:facebook-common:16.0.1] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/531f90977a2fb01cc1d441fe409b6e25/transformed/jetified-facebook-common-16.0.1/AndroidManifest.xml:38:21-56
+156                    android:path="/"
+157                    android:scheme="genericidp" />
+157-->[com.facebook.android:facebook-common:16.0.1] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/531f90977a2fb01cc1d441fe409b6e25/transformed/jetified-facebook-common-16.0.1/AndroidManifest.xml:39:21-47
+158            </intent-filter>
+159        </activity>
+160        <activity
+160-->[com.google.firebase:firebase-auth:21.1.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/9a6558ed47733e884c277427b144609f/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:45:9-62:20
+161            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+161-->[com.google.firebase:firebase-auth:21.1.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/9a6558ed47733e884c277427b144609f/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:46:13-79
+162            android:excludeFromRecents="true"
+162-->[com.google.firebase:firebase-auth:21.1.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/9a6558ed47733e884c277427b144609f/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:47:13-46
+163            android:exported="true"
+163-->[com.google.firebase:firebase-auth:21.1.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/9a6558ed47733e884c277427b144609f/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:48:13-36
+164            android:launchMode="singleTask"
+164-->[com.google.firebase:firebase-auth:21.1.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/9a6558ed47733e884c277427b144609f/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:49:13-44
+165            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+165-->[com.google.firebase:firebase-auth:21.1.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/9a6558ed47733e884c277427b144609f/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:50:13-72
+166            <intent-filter>
+166-->[com.google.firebase:firebase-auth:21.1.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/9a6558ed47733e884c277427b144609f/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:51:13-61:29
+167                <action android:name="android.intent.action.VIEW" />
+167-->[com.facebook.android:facebook-common:16.0.1] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/531f90977a2fb01cc1d441fe409b6e25/transformed/jetified-facebook-common-16.0.1/AndroidManifest.xml:32:17-69
+167-->[com.facebook.android:facebook-common:16.0.1] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/531f90977a2fb01cc1d441fe409b6e25/transformed/jetified-facebook-common-16.0.1/AndroidManifest.xml:32:25-66
+168
+169                <category android:name="android.intent.category.DEFAULT" />
+169-->[com.facebook.android:facebook-common:16.0.1] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/531f90977a2fb01cc1d441fe409b6e25/transformed/jetified-facebook-common-16.0.1/AndroidManifest.xml:34:17-76
+169-->[com.facebook.android:facebook-common:16.0.1] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/531f90977a2fb01cc1d441fe409b6e25/transformed/jetified-facebook-common-16.0.1/AndroidManifest.xml:34:27-73
+170                <category android:name="android.intent.category.BROWSABLE" />
+170-->[com.facebook.android:facebook-common:16.0.1] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/531f90977a2fb01cc1d441fe409b6e25/transformed/jetified-facebook-common-16.0.1/AndroidManifest.xml:35:17-78
+170-->[com.facebook.android:facebook-common:16.0.1] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/531f90977a2fb01cc1d441fe409b6e25/transformed/jetified-facebook-common-16.0.1/AndroidManifest.xml:35:27-75
+171
+172                <data
+172-->[com.facebook.android:facebook-common:16.0.1] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/531f90977a2fb01cc1d441fe409b6e25/transformed/jetified-facebook-common-16.0.1/AndroidManifest.xml:37:17-39:50
+173                    android:host="firebase.auth"
+173-->[com.facebook.android:facebook-common:16.0.1] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/531f90977a2fb01cc1d441fe409b6e25/transformed/jetified-facebook-common-16.0.1/AndroidManifest.xml:38:21-56
+174                    android:path="/"
+175                    android:scheme="recaptcha" />
+175-->[com.facebook.android:facebook-common:16.0.1] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/531f90977a2fb01cc1d441fe409b6e25/transformed/jetified-facebook-common-16.0.1/AndroidManifest.xml:39:21-47
+176            </intent-filter>
+177        </activity>
+178
+179        <provider
+179-->[com.google.firebase:firebase-common:20.3.2] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/c383ecf90953134b415118e3eb6ab859/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:25:9-30:39
+180            android:name="com.google.firebase.provider.FirebaseInitProvider"
+180-->[com.google.firebase:firebase-common:20.3.2] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/c383ecf90953134b415118e3eb6ab859/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:26:13-77
+181            android:authorities="com.unihub.firebaseinitprovider"
+181-->[com.google.firebase:firebase-common:20.3.2] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/c383ecf90953134b415118e3eb6ab859/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:27:13-72
+182            android:directBootAware="true"
+182-->[com.google.firebase:firebase-common:20.3.2] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/c383ecf90953134b415118e3eb6ab859/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:28:13-43
+183            android:exported="false"
+183-->[com.google.firebase:firebase-common:20.3.2] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/c383ecf90953134b415118e3eb6ab859/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:29:13-37
+184            android:initOrder="100" />
+184-->[com.google.firebase:firebase-common:20.3.2] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/c383ecf90953134b415118e3eb6ab859/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:30:13-36
+185        <!--
+186         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+187         with the application context. This config is merged in with the host app's manifest,
+188         but there can only be one provider with the same authority activated at any given
+189         point; so if the end user has two or more different apps that use Facebook SDK, only the
+190         first one will be able to use the provider. To work around this problem, we use the
+191         following placeholder in the authority to identify each host application as if it was
+192         a completely different provider.
+193        -->
+194        <provider
+194-->[com.facebook.android:facebook-core:16.0.1] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/7d27c4f30c7d9c38b7eb38c73452bd6a/transformed/jetified-facebook-core-16.0.1/AndroidManifest.xml:29:9-32:40
+195            android:name="com.facebook.internal.FacebookInitProvider"
+195-->[com.facebook.android:facebook-core:16.0.1] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/7d27c4f30c7d9c38b7eb38c73452bd6a/transformed/jetified-facebook-core-16.0.1/AndroidManifest.xml:30:13-70
+196            android:authorities="com.unihub.FacebookInitProvider"
+196-->[com.facebook.android:facebook-core:16.0.1] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/7d27c4f30c7d9c38b7eb38c73452bd6a/transformed/jetified-facebook-core-16.0.1/AndroidManifest.xml:31:13-72
+197            android:exported="false" />
+197-->[com.facebook.android:facebook-core:16.0.1] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/7d27c4f30c7d9c38b7eb38c73452bd6a/transformed/jetified-facebook-core-16.0.1/AndroidManifest.xml:32:13-37
+198
+199        <receiver
+199-->[com.facebook.android:facebook-core:16.0.1] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/7d27c4f30c7d9c38b7eb38c73452bd6a/transformed/jetified-facebook-core-16.0.1/AndroidManifest.xml:34:9-40:20
+200            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+200-->[com.facebook.android:facebook-core:16.0.1] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/7d27c4f30c7d9c38b7eb38c73452bd6a/transformed/jetified-facebook-core-16.0.1/AndroidManifest.xml:35:13-86
+201            android:exported="false" >
+201-->[com.facebook.android:facebook-core:16.0.1] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/7d27c4f30c7d9c38b7eb38c73452bd6a/transformed/jetified-facebook-core-16.0.1/AndroidManifest.xml:36:13-37
+202            <intent-filter>
+202-->[com.facebook.android:facebook-core:16.0.1] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/7d27c4f30c7d9c38b7eb38c73452bd6a/transformed/jetified-facebook-core-16.0.1/AndroidManifest.xml:37:13-39:29
+203                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+203-->[com.facebook.android:facebook-core:16.0.1] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/7d27c4f30c7d9c38b7eb38c73452bd6a/transformed/jetified-facebook-core-16.0.1/AndroidManifest.xml:38:17-95
+203-->[com.facebook.android:facebook-core:16.0.1] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/7d27c4f30c7d9c38b7eb38c73452bd6a/transformed/jetified-facebook-core-16.0.1/AndroidManifest.xml:38:25-92
+204            </intent-filter>
+205        </receiver>
+206        <receiver
+206-->[com.facebook.android:facebook-core:16.0.1] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/7d27c4f30c7d9c38b7eb38c73452bd6a/transformed/jetified-facebook-core-16.0.1/AndroidManifest.xml:41:9-47:20
+207            android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver"
+207-->[com.facebook.android:facebook-core:16.0.1] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/7d27c4f30c7d9c38b7eb38c73452bd6a/transformed/jetified-facebook-core-16.0.1/AndroidManifest.xml:42:13-118
+208            android:exported="false" >
+208-->[com.facebook.android:facebook-core:16.0.1] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/7d27c4f30c7d9c38b7eb38c73452bd6a/transformed/jetified-facebook-core-16.0.1/AndroidManifest.xml:43:13-37
+209            <intent-filter>
+209-->[com.facebook.android:facebook-core:16.0.1] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/7d27c4f30c7d9c38b7eb38c73452bd6a/transformed/jetified-facebook-core-16.0.1/AndroidManifest.xml:44:13-46:29
+210                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED" />
+210-->[com.facebook.android:facebook-core:16.0.1] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/7d27c4f30c7d9c38b7eb38c73452bd6a/transformed/jetified-facebook-core-16.0.1/AndroidManifest.xml:45:17-103
+210-->[com.facebook.android:facebook-core:16.0.1] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/7d27c4f30c7d9c38b7eb38c73452bd6a/transformed/jetified-facebook-core-16.0.1/AndroidManifest.xml:45:25-100
+211            </intent-filter>
+212        </receiver>
+213
+214        <activity
+214-->[com.google.android.gms:play-services-auth:20.3.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/b492d2e12d8be0594326f4fe4703aee8/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:23:9-27:75
+215            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+215-->[com.google.android.gms:play-services-auth:20.3.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/b492d2e12d8be0594326f4fe4703aee8/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:24:13-93
+216            android:excludeFromRecents="true"
+216-->[com.google.android.gms:play-services-auth:20.3.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/b492d2e12d8be0594326f4fe4703aee8/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:25:13-46
+217            android:exported="false"
+217-->[com.google.android.gms:play-services-auth:20.3.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/b492d2e12d8be0594326f4fe4703aee8/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:26:13-37
+218            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+218-->[com.google.android.gms:play-services-auth:20.3.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/b492d2e12d8be0594326f4fe4703aee8/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:27:13-72
+219        <!--
+220            Service handling Google Sign-In user revocation. For apps that do not integrate with
+221            Google Sign-In, this service will never be started.
+222        -->
+223        <service
+223-->[com.google.android.gms:play-services-auth:20.3.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/b492d2e12d8be0594326f4fe4703aee8/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:33:9-37:51
+224            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+224-->[com.google.android.gms:play-services-auth:20.3.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/b492d2e12d8be0594326f4fe4703aee8/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:34:13-89
+225            android:exported="true"
+225-->[com.google.android.gms:play-services-auth:20.3.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/b492d2e12d8be0594326f4fe4703aee8/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:35:13-36
+226            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+226-->[com.google.android.gms:play-services-auth:20.3.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/b492d2e12d8be0594326f4fe4703aee8/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:36:13-107
+227            android:visibleToInstantApps="true" />
+227-->[com.google.android.gms:play-services-auth:20.3.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/b492d2e12d8be0594326f4fe4703aee8/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:37:13-48
+228
+229        <activity
+229-->[com.google.android.gms:play-services-base:18.0.1] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/294c32beb3ecdfe6331e2b57e4421ea4/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+230            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+230-->[com.google.android.gms:play-services-base:18.0.1] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/294c32beb3ecdfe6331e2b57e4421ea4/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+231            android:exported="false"
+231-->[com.google.android.gms:play-services-base:18.0.1] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/294c32beb3ecdfe6331e2b57e4421ea4/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+232            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+232-->[com.google.android.gms:play-services-base:18.0.1] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/294c32beb3ecdfe6331e2b57e4421ea4/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+233
+234        <meta-data
+234-->[com.google.android.gms:play-services-basement:18.1.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/07adfbb77313190d435cf7e83f85bfa3/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+235            android:name="com.google.android.gms.version"
+235-->[com.google.android.gms:play-services-basement:18.1.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/07adfbb77313190d435cf7e83f85bfa3/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+236            android:value="@integer/google_play_services_version" />
+236-->[com.google.android.gms:play-services-basement:18.1.0] /Users/macbookpro/Downloads/.gradle/caches/transforms-3/07adfbb77313190d435cf7e83f85bfa3/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+237    </application>
+238
+239</manifest>

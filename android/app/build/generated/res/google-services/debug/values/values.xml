@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">444829181838-dv9ekm97nkq7k7jeq4qi51sdubht3jbr.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://unihub-app-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">444829181838</string>
+    <string name="google_api_key" translatable="false">AIzaSyAfPswdmcLqrjy8HUQJjBCO7EUJ1lSnK60</string>
+    <string name="google_app_id" translatable="false">1:444829181838:android:8847a9e1f9d8b9ae60a6df</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAfPswdmcLqrjy8HUQJjBCO7EUJ1lSnK60</string>
+    <string name="google_storage_bucket" translatable="false">unihub-app.appspot.com</string>
+    <string name="project_id" translatable="false">unihub-app</string>
+</resources>
